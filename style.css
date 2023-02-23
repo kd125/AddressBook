@@ -1,0 +1,35 @@
+body {
+  background-color: rgba(201, 227, 236, 0.418);
+}
+
+#displayUserList {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: auto;
+  column-gap: 3%;
+  row-gap: 3%;
+}
+
+li {
+  grid-area: auto;
+  border-radius: 5px;
+  list-style: none;
+  overflow: auto;
+  /* margin: 10% 15%; */
+  border-style: double;
+  border-width: 5pt;
+  border-color: white;
+  display: flex;
+  display: block;
+}
+
+img {
+  display: block;
+}
+
+h1 {
+  display: flexbox;
+  color: rgb(54, 50, 50);
+  font-weight: bolder;
+  text-align: center;
+}

@@ -3,7 +3,7 @@ window.onload = function () {
 };
 
 const fetchUser = () => {
-  fetch("https://randomuser.me/api/?results=10")
+  fetch("https://randomuser.me/api/?results=12")
     .then((res) => res.json())
     .then((data) => {
       displayUsers(data.results);
