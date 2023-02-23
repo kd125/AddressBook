@@ -21,7 +21,7 @@ const displayUsers = (arrayOfUsers) => {
     const img = document.createElement("img");
     img.src = post.picture.large;
     const text = document.createTextNode(
-      `#${index}, ${post.picture.large} Gender: ${post.gender}: Name: ${post.name.first} ${post.name.last}, DOB: ${post.dob.date}, Address: ${post.location.street.number} ${post.location.street.name}, ${post.location.city}`
+      `#${index},  Gender: ${post.gender}: \n Name: ${post.name.first} ${post.name.last}, \n DOB: ${post.dob.date}, \n Address: ${post.location.street.number} \n ${post.location.street.name}, \n ${post.location.city}`
     );
     li.appendChild(text);
     li.appendChild(img);
